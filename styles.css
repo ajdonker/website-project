@@ -8,6 +8,9 @@ body{
 .part-1{
     background-color: darkblue;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .part-2{
