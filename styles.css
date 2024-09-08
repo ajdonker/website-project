@@ -2,24 +2,35 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    height: 100%;
     justify-content: space-between;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.part1,
+.part2,
+.part3,
+.part4{
+    width: 100%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .part-1{
-    background-color: darkblue;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    
 }
 .part-2{
-    background-color: red;
+    background-color: white;
     display: flex;
 
 }
 .part-3{
-    background-color: gray;
+    background-color: #e5e7eb;
     display: flex;
 
 }
@@ -28,4 +39,105 @@ body{
     display: flex;
 
 
+}
+/* part1 specific */
+#twia{
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+#longtwia{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap : 1024px;
+    
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 18px;
+
+}
+.container1{
+    display: flex;
+    padding: 18px;
+    margin: 18px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.text-and-button{
+    display: flex;
+    flex-direction: column;
+    max-width:524px;
+    
+}
+#button1{
+    max-width: 84px;
+}
+/* part2 */
+#sri{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.squares{
+    border : 5px;
+    border-color: blue;
+
+}
+.whole{
+    max-width: 248px;
+}
+.part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+    align-items: center;
+    margin :24px;
+    padding: 14px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+/* part3 */
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 50%;
+}
+.author{
+    font-weight: 500px;
+    font-size: 12px;    
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+}
+.part-3{
+    display: flex;
+    
 }
