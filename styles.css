@@ -1,3 +1,7 @@
+.html{
+    overflow-y: scroll;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -34,12 +38,7 @@ body{
     display: flex;
 
 }
-.part-4{
-    background-color: red;
-    display: flex;
 
-
-}
 /* part1 specific */
 #twia{
     font-size: 48px;
@@ -128,16 +127,54 @@ body{
 }
 .author{
     font-weight: 500px;
-    font-size: 12px;    
+    font-size: 12px;
+    text-align: right;
+    max-width: 50%;    
 }
 .container3{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    padding: 24px;
+    padding: 50px;
 }
 .part-3{
     display: flex;
     
+}
+/* part4  */
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueback{
+    background-color: #3882F6;
+    margin: 48px;
+    border-radius: 25px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 72px;
+    padding-right: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftpart{
+    font-size: 36px;
+    color: #1F2937;
+    
+
+}
+.bigger{
+    font-weight: 900;
+}
+#button2{
+    background-color: #3882F6;
+    color: white;
+    min-width:min-content;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
 }
